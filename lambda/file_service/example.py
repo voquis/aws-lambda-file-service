@@ -1,5 +1,5 @@
 """
-Example module
+File service module
 """
 
 def example_function(example_input):

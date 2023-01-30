@@ -1,9 +1,9 @@
 """
-Example unit tests
+File service unit tests
 """
 
-from example import __version__
-from example import example
+from file_service import __version__
+from file_service import example
 
 
 def test_version():

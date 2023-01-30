@@ -4,7 +4,7 @@ https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-develop-in
 """
 
 import logging
-from example import payload
+from file_service import payload
 
 def handler(event, context):
     """

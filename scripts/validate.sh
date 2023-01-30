@@ -4,7 +4,7 @@ set -euo pipefail
 # Install dependencies, including development dependencies
 poetry install --no-root
 
-PACKAGE_NAME="example"
+PACKAGE_NAME="file_service"
 
 # Run linting checks on package, tests and app entrypoint
 poetry run pylint "${PACKAGE_NAME}" tests app.py

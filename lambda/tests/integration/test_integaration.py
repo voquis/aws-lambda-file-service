@@ -1,8 +1,8 @@
 """
-Example integration tests
+File service integration tests
 """
 
-from example import __version__
+from file_service import __version__
 
 def test_version():
     """
