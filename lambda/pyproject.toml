@@ -1,11 +1,12 @@
 [tool.poetry]
-name = "example"
+name = "file_service"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Voquis"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+boto3 = "^1.26.59"
 
 [tool.poetry.dev-dependencies]
 pytest = "^6.2"
